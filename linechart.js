@@ -12,7 +12,7 @@ if (this.FunWithCanvas === undefined) this.FunWithCanvas = {};
 
     var data = [30, 50, 90, 87, 75, 120, 47, 15, 120, 65, 60];
     context.beginPath();
-
+    context.strokeStyle= 'green';
     //define the path
 
     context.stroke();
