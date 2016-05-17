@@ -26,7 +26,7 @@ if (this.FunWithCanvas === undefined) this.FunWithCanvas = {};
     context.lineTo(width,height);
     context.lineTo(0, height);
     context.closePath();
-    context.fillStyle = "#FF0000";
+    context.fillStyle = "#F00";
     context.fill();
     context.stroke();
 
